@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
 #      - image: circleci/openjdk:8-jdk
-      - image: circleci/oraclejdk:7-jdk
+      - image: circleci/openjdk:7-jdk
 
     working_directory: ~/repo
 
