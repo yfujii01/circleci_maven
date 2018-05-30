@@ -35,6 +35,6 @@ jobs:
       - store_test_results:
           path: ~/repo/target/surefire-reports
 
-      # Artifactsに表示するフォルダの設定
-      - store_artifacts:
-          path: ~/
+      # Artifactsに表示するフォルダの設定(ファイルのアップロードなので時間がかかる)
+#      - store_artifacts:
+#          path: ~/
