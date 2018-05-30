@@ -41,7 +41,7 @@ jobs:
         
       # run tests!
 #      - run: gradle test
-      - run: mvn site
+      - run: mvn test
 
       # テスト結果の一覧(TEST-AppTest.xml)をTest Summaryに表示する
       - store_test_results:
