@@ -14,6 +14,6 @@ public class AppTest {
     @Test public void test02() {
         App classUnderTest = new App();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
-        assertThat("messageCheck", classUnderTest.getGreeting(), Is.is("Hello world.a"));
+        assertThat("messageCheck", classUnderTest.getGreeting(), Is.is("Hello world."));
     }
 }
