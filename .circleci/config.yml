@@ -3,8 +3,8 @@ version: 2
 jobs:
   build:
     docker:
-#      - image: circleci/openjdk:8-jdk
-      - image: openjdk:7-jdk
+      - image: circleci/openjdk:8-jdk
+#      - image: openjdk:7-jdk
 
     working_directory: ~/repo
 
@@ -14,10 +14,6 @@ jobs:
     
     steps:
       - checkout
-
-      -run:
-        command:
-          - apt install maven
 
       # Download and cache dependencies
       - restore_cache:
