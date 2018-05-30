@@ -23,7 +23,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: apt-get install -y sudo
+      - run: apt-get update && apt-get install -y sudo
 
       - run:
           name: Install System Dependencies
